@@ -1,0 +1,109 @@
+#include<iostream>
+#include<string>
+using namespace std;
+
+class student{
+private:
+int rollNumber;
+string name;
+string course;
+int admissionYear;
+
+public:
+
+//function to input student data
+void inputDetails (){
+    
+cout<<"Enter Roll Number: " ;
+cin>>rollNumber;
+
+cin.ignore();
+
+cout<<"Enter course: " ;
+getline(cin,course);
+
+cout<<"Enter admission Year: " ;
+cin>>admissionYear;
+
+cout<<---------\n";
+}
+
+//Function to display student data
+void displayDetails() const{
+    
+cout<<"Roll Number:"<<roll number<<"\n";
+cout<<"Name:"<<name<<"\n";
+cout<<"Course:"<<course<<"\n";
+cout<<"Admission Year:"<<admission year<<"\n";
+
+//function to get roll number
+int get roll number() const{
+    return rollNumber;
+}
+};
+int main()
+{
+const in MAX_STUDENT=100;
+
+//Array of students objects
+
+student database[MAX_STUDENTS];
+
+// Variable to keep track of number of students 
+int currentCount=0;
+
+int choice;
+cout<<"===College Record Digitization system===\n";
+do
+{
+    //Display menu
+    cout<<"\n1.Add New Student Record\n";
+    cout<<"2.Display All Student Record\n";
+    
+    cout<<"3.Search Student by Roll Number\n";
+    cout<<4.exit\n";
+    
+    cout<<"Enter your choice";
+    cin>>choice;
+    
+    cout<<"/n"
+    switch choice(){
+//Add a New Student Record
+
+Case 1:
+if Current count +1<<"---\n";
+
+//Store Student Details.
+database[current count].input details();
+
+//increase the number of students records
+current count++;
+Count<<"Record saved successfully!\n";
+}
+else{
+    count<<"Database full! cannot add more records.\n";
+}
+break;
+
+//display all students record.
+
+Case 2:
+if(current count==0){
+count<<"No student records available.\n";
+}
+else{
+    cout<<"---Total Student Records---\n";
+    
+    //display each student Records
+    for(int==0; i<current count;i++){
+        database[i].display Details();
+}
+}
+ break;
+//search for a student using Roll number
+class 3:{
+    
+if (current count==0){
+count<<
+
+}
