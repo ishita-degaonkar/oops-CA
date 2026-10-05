@@ -38,7 +38,7 @@ cout << "Branch: " << branch << endl;
 };
 int main()
 {
-Student s1("Anjali", 20, "9876543210", 101, "Computer Science");
+Student s1("Ishita", 20, "9876543210", 101, "Computer Science");
 s1.display();
 return 0;
 }
