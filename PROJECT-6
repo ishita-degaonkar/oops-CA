@@ -28,7 +28,7 @@ cout << "Employee record removed for " << name << endl;
 int main()
 {
 // Creating an employee object
-Employee emp(101, "Anjali");
+Employee emp(101, "Ishita");
 // Displaying employee details
 emp.display();
 // Object is automatically destroyed when main() ends
